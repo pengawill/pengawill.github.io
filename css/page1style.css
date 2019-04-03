@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #a8daff;
+	font-family: Open Sans;
+}
+
+header {
+	background-color: #42b0ff;
+	padding: 30px;
+	text-align: center;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	height: 60em;
+	background-color: #add8e6;
+	padding: 20px;
+}
+
+article {
+	float: right;
+	padding: 20px;
+	width: 70%;
+	height: 60em;
+	background-color: #f1f1f1;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	background-color: #42b0ff;
+	text-align: center;
+	padding: 20px;
+}
+
+#floatbox {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	background-color: #f4d1ff;
+	padding: 10px;
+	width: 150px;
+}
